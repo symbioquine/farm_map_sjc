@@ -1,14 +1,19 @@
 (function () {
-  farmOS.map.behaviors.farm_map_no = {
+  farmOS.map.behaviors.farm_map_sjc = {
     attach: function (instance) {
 
-      // Add Norkart Flyfoto layer.
+      // Add San Juan Islands Aerials
       var opts = {
-        title: 'Norkart Flyfoto',
-        url: 'http://map04.eniro.no/geowebcache/service/tms1.0.0/aerial/{z}/{x}/{-y}.jpeg?c=2542211020&v=20160420',
+        title: 'SJC Aerials',
+        url: 'https://myexample.farm/service',
+        params: {
+          LAYERS: 'Image',
+          VERSION: '1.3.0',
+        },
         group: 'Base layers',
       };
-      instance.addLayer('xyz', opts);
+      instance.addLayer('wms', opts);
     },
   };
 }());
+

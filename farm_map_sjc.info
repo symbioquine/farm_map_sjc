@@ -1,5 +1,5 @@
-name = Farm Map: Norway
-description = Norwegian map layers for farmOS maps.
+name = Farm Map: San Juan Islands
+description = San Juan Islands map layers for farmOS maps.
 core = 7.x
 package = farmOS Contrib
 dependencies[] = farm_map
