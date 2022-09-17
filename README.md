@@ -2,16 +2,15 @@
 
 San Juan Islands map base layers for farmOS
 
-This module is directly based on the code of [farmOS/farm_map_no](https://github.com/farmOS/farm_map_no) under the [presumed GPL license](https://matrix.to/#/!rxZezKXfxOKJxTgNGs:matrix.org/$1586723889637120jmoON:matrix.org?via=matrix.org&via=librem.one).
-
-![image](https://user-images.githubusercontent.com/30754460/78454018-41187200-764a-11ea-9c59-4e6dc34aad48.png)
+![image](https://user-images.githubusercontent.com/30754460/190861601-614518ae-54dc-41d7-8506-21c13ce6ba54.png)
 
 ## Installation
 
-The module `.tar.gz` is uploaded on the [releases page](https://github.com/symbioquine/farm_map_sjc/releases) of this repository.
+Use Composer and Drush to install farm_map_sjc in farmOS 2.x;
 
-## Building From Source
-
-```bash
-tar czf farm_map_sjc.tar.gz --exclude=farm_map_sjc.tar.gz --exclude=.git -C $(pwd)/../ farm_map_sjc
+```sh
+composer require 'drupal/farm_map_sjc'
+drush en farm_map_sjc
 ```
+
+*Available released versions can be viewed at https://www.drupal.org/project/farm_map_sjc*

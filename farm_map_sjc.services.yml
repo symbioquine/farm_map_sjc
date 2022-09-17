@@ -1,0 +1,5 @@
+services:
+  sjc_map_render_event_subscriber:
+    class: Drupal\farm_map_sjc\EventSubscriber\MapRenderEventSubscriber
+    tags:
+      - { name: 'event_subscriber' }

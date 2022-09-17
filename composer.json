@@ -1,0 +1,19 @@
+{
+  "name": "symbioquine/farm_map_sjc",
+  "description": "San Juan Islands map base layers for farmOS",
+  "type": "drupal-module",
+  "homepage": "https://github.com/symbioquine/farm_map_sjc",
+  "authors": [
+    {
+      "name": "Symbioquine",
+      "homepage": "https://github.com/symbioquine",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/symbioquine/farm_map_sjc/issues",
+    "source": "https://github.com/symbioquine/farm_map_sjc"
+  },
+  "license": "GPL-3.0-or-later",
+  "minimum-stability": "dev"
+}

@@ -1,5 +1,5 @@
 (function () {
-  farmOS.map.behaviors.farm_map_sjc = {
+  farmOS.map.behaviors.map_sjc = {
     attach: function (instance) {
 
       // From https://gis.sanjuanco.com/arcgis/rest/services/Basemaps?f=pjson
@@ -35,7 +35,6 @@
         instance.addLayer('arcgis-tile', opts);
       });
 
-    },
+    }
   };
 }());
-

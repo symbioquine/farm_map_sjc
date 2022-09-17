@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - farm_map_sjc
+id: map_sjc
+label: Farm Map San Juan Islands
+description: 'Displays San Juan Islands layers.'
+library: 'farm_map_sjc/map_sjc'
+settings: {  }
