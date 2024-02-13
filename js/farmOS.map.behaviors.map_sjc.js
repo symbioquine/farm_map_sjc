@@ -15,7 +15,7 @@
         { "name": "Basemaps/Aerials_2019_WM", "type": "MapServer" },
         { "name": "Basemaps/Aerials_2019", "type": "MapServer" },
         { "name": "Basemaps/Aerials_2022", "type": "MapServer" },
-        { "name": "Basemaps/General_Basemap_WM_nostatelands", "type": "MapServer" },
+        { "name": "Basemaps/Aerials_2023", "type": "MapServer" },
         { "name": "Basemaps/General_Basemap_WM", "type": "MapServer" },
         { "name": "Basemaps/General_Basemap", "type": "MapServer" },
         { "name": "Basemaps/Reference_Overlay_WM", "type": "MapServer" },

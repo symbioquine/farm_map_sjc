@@ -6,7 +6,7 @@ San Juan Islands map base layers for farmOS
 
 ## Installation
 
-Use Composer and Drush to install farm_map_sjc in farmOS 2.x;
+Use Composer and Drush to install farm_map_sjc in farmOS 3.x;
 
 ```sh
 composer require 'drupal/farm_map_sjc'
